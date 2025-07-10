@@ -1,0 +1,84 @@
+ * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #222;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .player {
+      background: #333;
+      padding: 20px;
+      border-radius: 15px;
+      width: 350px;
+      text-align: center;
+    }
+
+    .info {
+      margin-bottom: 15px;
+    }
+
+    .info h2, .info h3 {
+      margin: 5px;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: center;
+      margin: 15px 0;
+    }
+
+    .controls button {
+      background: #444;
+      color: white;
+      border: none;
+      padding: 10px;
+      margin: 0 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .progress-container {
+      background: #555;
+      height: 6px;
+      border-radius: 3px;
+      margin: 15px 0;
+      cursor: pointer;
+    }
+
+    .progress {
+      height: 100%;
+      background: #00f0ff;
+      width: 0%;
+      border-radius: 3px;
+    }
+
+    .volume-container {
+      margin: 10px 0;
+    }
+
+    input[type=range] {
+      width: 100%;
+    }
+
+    .playlist {
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    .playlist-item {
+      cursor: pointer;
+      padding: 5px;
+      border-bottom: 1px solid #444;
+    }
+
+    .playlist-item.active {
+      background: #555;
+    }
